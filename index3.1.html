@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>What's New</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="../styles/whats-new.css">
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.0/css/all.css'
+    integrity='sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ' crossorigin='anonymous'>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+  <style>
+    body {
+      padding: 0px;
+      background-color: transparent;
+    }
+  </style>
+  <script type="text/javascript">
+    function whatsNewVersionHistory_onclick(control, event) {
+      if (parent && parent.whatsNewVersionHistory_onclick)
+        parent.whatsNewVersionHistory_onclick(control, event);
+    }
+    function whatsNewExit_onclick(control, event) {
+      if (parent && parent.whatsNewExit_onclick)
+        parent.whatsNewExit_onclick(control, event);
+    }
+    function whatsNewPrint_onclick(control, event) {
+      window.print();
+    }
+  </script>
+</head>
+
+<body>
+  <div class="whats-new print">
+    <div class="outer-container">
+      <!-- <div class="main-header">
+        <i class="fas fa-bullhorn"></i>
+        <div class="title">What's New</div>
+        <div class="tools">
+          <div class="version-history"><a href="index5.2.html" class="button">Version History</a></div>
+          <div class="exit-icon">
+            <i class="fa fa-times" aria-hidden="true"></i>
+          </div>
+        </div>
+      </div> -->
+      <div class="main-header no-print">
+        <i class="fas fa-bullhorn"></i>
+          <div class="title">What's New</div>
+          <div class="tools">
+            <div class="version-history"><a class="button" onclick="javascript: whatsNewVersionHistory_onclick(this, event);">Version History</a></div>
+              <div class="exit-icon" onclick="javascript: whatsNewExit_onclick(this, event);">
+                <i class="fa fa-times" aria-hidden="true"></i>
+              </div>
+          </div>
+      </div>
+      <div class="inner-wrapper">
+        <div type="" class="inner-container print">
+          <!-- <hr class="header-border"> -->
+          <div class="row-1">
+            <div class="summary">New features, enhancements and bug fixes.</div>
+            <div class="icons">
+              <div class="version">Version 3.3.10</div>
+              <div class="action-icon no-print" data-toggle="tooltip" data-placement="top" data-trigger="hover" title="Print Version" onclick="javascript: whatsNewPrint_onclick(this, event);"><i class="fas fa-print"></i></div>
+            </div>
+          </div>
+
+          <div class="section-container">
+            <div class="section-title-1"><strong>Create Email Templates and Enhanced Email Editing</strong><span class="new-feature"><span
+                  class="new-feature-color">New Feature</span></span></div>
+            <div class="list">Users will now be able to create custom email templates for their branch usingFroala,a tool that will additionally afford users enhanced email editing/formattingcapabilities compared to what was previously available inOANet.To create a new email template, users must click Set Up Email Template in the tools tab.</div><iframe class="video" width="560" height="315"
+              src="https://ain1storage.blob.core.windows.net/captivate/Set Up Email Template.png" frameborder="0"
+              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+
+           <div class="section-container">
+            <div class="section-title"><strong>Work History Search</strong><span class="enhancement"><span
+                  class="enhancement-color">Enhancement</span></span></div>
+            <div class="list">Numerous changes have been made to the Work HistorySearchin OANet.Firstly, a few important search criteria have been moved from the Advanced Search options to the front of the search page, including Interview Date and Job Function Category.</div><iframe class="video" width="560" height="315"
+              src="https://ain1storage.blob.core.windows.net/captivate/Work History Search.png" frameborder="0"
+              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+
+          <div class="section-container">
+            <div class="section-title"><strong>Second Signer for E-Sign</strong><span class="enhancement"><span
+                  class="enhancement-color">Enhancement</span></span></div>
+            <div class="list">Previously,Document Upload and E-Sign could be used to request uploaded documentsfrom users and send documents to be signed, respectively.Athirddocumentfunctionality is now being added to OANet: Informational Documents. These are documents that require no additional action from the user, and this functionality allowsdistribution of files at the same time that document upload/e-sign items are being requested within a given hiring stage. The UI has also changed, showing an icon beside each file, to indicate the type of document (e-sign, request, information), as well as adding a filter to limit the display by that type.</div>
+          </div>
+
+          <div class="section-container">
+            <div class="section-title"><strong>Codes Added to Placement Screen Fields</strong><span class="enhancement"><span
+                  class="enhancement-color">Enhancement</span></span></div>
+            <div class="list">On the Placement screen, a number of fields’ values can be designatedby a name or anassociated numerical code. While both details could be entered for thesefields within OA Classic, OANet previously onlyacceptedthe name. Because longtime employees typically use codes more than they do the name of thesefields, the option to enter codes has now been added toOANet Placement screen.While originally undertaken to simplify entry of transaction types, most fields in the Registration section will now accept codes as well as names/text.</div><iframe class="video" width="560" height="315"
+              src="https://ain1storage.blob.core.windows.net/captivate/Added to Placement Screens.png" frameborder="0"
+              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+
+          <div class="section-container">
+            <div class="section-title-1"><strong>Sending Informational Documents</strong><span class="enhancement"><span
+                  class="enhancement-color">Enhancement</span></span></div>
+            <div class="list">Previously,Document Upload and E-Sign could be used to request uploaded documentsfrom users and send documents to be signed, respectively.Athirddocumentfunctionality is now being added to OANet: Informational Documents. These are documents that require no additional action from the user, and this functionality allowsdistribution of files at the same time that document upload/e-sign items are being requested within a given hiring stage. The UI has also changed, showing an icon beside each file, to indicate the type of document (e-sign, request, information), as well as adding a filter to limit the display by that type.</div><iframe class="video" width="560" height="315"
+              src="https://ain1storage.blob.core.windows.net/captivate/Sending Informational Documents.png" frameborder="0"
+              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+
+          <div class="section-container">
+          <div class="section-title-1"><strong>Expense/Reimbursement Entry</strong><span class="enhancement"><span
+                class="enhancement-color">Enhancement</span></span></div>
+          <div class="list">A minor change has been made to the Expense/Reimbursement section of the OANet Time Entry screen –the sales tax column has been moved to the rightmost part of the section.</div>
+        </div>  
+
+         <div class="section-container">
+          <div class="section-title-1"><strong>Worker’s Comp Approval without Credit Information</strong><span class="enhancement"><span
+                class="enhancement-color">Enhancement</span></span></div>
+          <div class="list">Previously, it was not possible to generate Worker’s Comp approval in the client screen without first creating a credit record. Itwill now be possible to obtain Worker’s Comp approval without first providing credit information.</div>
+        </div>  
+
+         <div class="section-container">
+          <div class="section-title-1"><strong>Mapped Client (Canada)</strong><span class="enhancement"><span
+                class="enhancement-color">Enhancement</span></span></div>
+          <div class="list">When mapping Job Orders between databases, the Job Order must have a matching Client within the same database, or else such a Client Record must be created. For offices within Canada, a mapped Job Order will carry the same Worker Comp codes under the following conditions:
+              a) If the target database does not have a Client Record that matches the Job Order being mapped – in this instance, a
+              matching Client Record will be created within the target database with the same Worker Comp codes (mapped Job Order
+              will inherit these codes)
+              b) If the target database has a Client Record that matches the Client Record of the original Job Order and has the same
+              Worker Comp codes, then mapped Job Order will also have these Worker Comp codes
+              In instances where a Job Order is mapped and the target database has a matching Client Record but with different Worker
+              Comp codes, then the Worker Comp section of the mapped Job Order will be blank in the target database.</div>
+        </div>  
+
+          <div class="section-container">
+            <div class="section-title"><strong>Recent Records</strong><span class="bug-fix"><span
+                  class="bug-fix-color">Bug Fix</span></span></div>
+            <div class="list">Several changes have been made to streamline the use of the Recent Records functionality. Opening the popup is now done by double clicking the icon; additionally, clicking a listed Recent Record will now display record detail on the same line as the record clicked. </div>
+          </div>
+
+          <div class="section-container">
+            <div class="section-title"><strong>People Search Bug Fix</strong><span class="bug-fix"><span
+                  class="bug-fix-color">Bug Fix</span></span></div>
+            <div class="list">We've made some enhancements and fixed a few bugs to make OAnet even better for you, because
+              we believe small change adds up. The search results will now be more exact and targetted.</div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
